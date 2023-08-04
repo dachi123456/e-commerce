@@ -1,0 +1,15 @@
+.alert-div{
+    position: fixed;
+    width: 100%;
+    height: 2.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #665F5F;
+    top: 0;
+    left: 0;
+}
+.alert-div p {
+    font-size: 1.5rem;
+}

@@ -1,0 +1,20 @@
+.card-list-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 2rem;
+   
+}
+@media screen and (max-width: 600px) {
+    .card-list-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (max-width: 378px) {
+    .card-list-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}

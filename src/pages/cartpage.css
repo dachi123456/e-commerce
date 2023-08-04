@@ -1,0 +1,46 @@
+.card-box{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 12rem 10rem;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    margin-bottom:1rem ;
+}
+.card-box img{
+    width: 10rem;
+    border-radius: 0.5rem;
+}
+.price-name h6{
+    margin-top: 1.5rem;
+}
+.cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.card-box button{
+    width: 2rem;
+    height: 1rem;
+    background: none;
+    font-weight: 900;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.amount{
+    border: 1px solid grey;
+    height: 3rem;
+    width: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.delete-btn{
+    color: red;
+    margin-top: 1rem;
+}

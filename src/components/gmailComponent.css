@@ -1,0 +1,35 @@
+.gmail-form{
+    width: 100%;
+    height: 4rem;
+    background-color: #FFD1D7;
+    margin-top: 5rem;
+    padding-top: 2rem;
+}
+.email-area input{
+    border: none;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    outline: none;
+    margin-left: 0.5rem;
+}
+.email-area{
+    margin: auto;
+    width: 15rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+}
+.gmail-form button{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.gmail-form img{
+    width: 60%;
+    
+}
